@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0090;
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00ff37;
+}
+
+footer {
+    background-color: #ff0090;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    font-size: 2em;
+}
+
+.navbar ul {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff009091;
+    top: 58px;
+    transition: all 350ms ease-in-out;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    backdrop-filter: blur(2px);
+}
+
+
+
+.navbar.show ul {
+    height: 80vh;
+    gap: 1em;
+}
+
+/* Prettier font for about page */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+/* General body styling */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar and logo styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0090;
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.slogan {
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+/* About section styling */
+.about-section {
+    background-color: rgba(255, 238, 230, 0.8); /* Light peach background */
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+}
+
+.about-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff0090; /* Match with navbar color */
+}
+
+.about-content p {
+    font-size: 1.25em;
+    line-height: 1.8;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.7); /* White background for readability */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #ff0090;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Font for prettier styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;500&display=swap');
+
+/* General body styling */
+body {
+    margin: 0;
+    font-family: 'Raleway', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar and logo styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0090;
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block; /* Ensures it takes up full line space */
+}
+
+.slogan {
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 5px; /* Adjust the value to control spacing */
+    display: block;
+}
+
+
+/* Services section styling */
+/* Services section styling */
+.services-section {
+    background-color: rgba(240, 250, 245, 0.9); /* Light pastel green overlay */
+    background-image: url('image2.png'); /* Ensure image2.png is in the correct directory */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.services-section h1 {
+    font-size: 2.8em;
+    margin-bottom: 30px;
+    color: #007a4f; /* Deep green to complement the background */
+}
+
+.services-content ul {
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.8); /* White background with transparency for readability */
+    padding: 25px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.services-content li {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.services-content li strong {
+    color: #ff0090; /* Accent color to highlight service titles */
+}
+
+/* Footer styling */
+footer {
+    background-color: #ff0090;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/**** Why Choose Us Section Styling ****/
+
+.why-choose-us {
+    background-color: #fdf8f4; /* Light peach background */
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us h2 {
+    font-size: 2.2em;
+    color: #007a4f; /* Deep green to match the theme */
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.choose-us-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+
+.choose-us-list li {
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.choose-us-list li strong {
+    color: #ff0090; /* Accent color for titles */
+}
+/* Styling for the home image */
+.home-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.home-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Text Styling */
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+    color: #007a4f; /* Deep green to match the floral theme */
+    padding: 0 20px;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    color: #ff0090; /* Floral pink for the main text */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-top: 0;
+}
